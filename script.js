@@ -91,9 +91,9 @@ function waitAndResponce(inputText) {
             sendTextMessage("I am currently pusuing Bachlor degree in Computer Science Engineering from EPSI Paris<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Lille University<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
             break;
 
-        case "address":
-            sendTextMessage(addressString);
-            break;
+        // case "address":
+        //     sendTextMessage(addressString);
+        //     break;
         case "clear":
             clearChat();
             break;
